@@ -1,0 +1,1 @@
+const p=o=>{const n={};return Object.keys(o).forEach(t=>{const c=o[t],e=t.split("/").pop().replace(/\.\w+$/,"");n[e]=c.default||c}),n};export{p as a};
